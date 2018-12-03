@@ -1,3 +1,4 @@
+
 ## Continuous Integration
 
 ----
@@ -36,7 +37,7 @@
 #### Integration tests
 
 * Rely on Unit tests
-* Validate that all bricks behabe as intended
+* Validate that all bricks behave as intended
 * You can test from any interface (not only client interface)
 
 ----
@@ -61,8 +62,8 @@
 
 #### Security tests
 
-* Validate if the application is imune against known security holes (sql injection, XSS, ...)
-* DDOS and brutefore application
+* Validate if the application is immune against known security holes (sql injection, XSS, ...)
+* DDOS and bruteforce application
 
 ----
 
