@@ -27,7 +27,7 @@
 
 ----
 
-### Utiliser Git en équipe : Gitflow
+### Use git with your team: Gitflow
 <img src="images/gitflow.jpg" style="background:none; border:none; box-shadow:none;"/>
 
 ----
