@@ -8,7 +8,7 @@
 
 ----
 
-### Hell matrice
+### Hell matrix
 
 <img src="images/the-matrix-from-hell.png" width="70%" />
 
@@ -20,7 +20,7 @@
 
 ----
 
-### Hell matrice again
+### Hell matrix again
 
 ![Image](images/also-a-matrix-from-hell.png)
 
@@ -38,7 +38,7 @@
 
 ----
 
-### Docker solve hell matrice
+### Docker solve hell matrix
 
 <img src="images/eliminates-matrix-from-hell.png" width="70%" />
 
