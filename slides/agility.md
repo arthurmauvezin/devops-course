@@ -39,7 +39,7 @@
 ----
 
 ### Scrum process overview
-<img src="images/scrum-process.png" style="background:none; border:none; box-shadow:none;"/>
+<img src="images/scrum-process.jpg" style="background:none; border:none; box-shadow:none;"/>
 
 ----
 
