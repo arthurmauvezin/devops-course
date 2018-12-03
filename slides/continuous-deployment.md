@@ -2,34 +2,34 @@
 
 ----
 
-### S'appuie sur le Continuous Delivery
+### Rely on Continuous Delivery
 <img src="images/wf-cdeployment.png" style="background:none; border:none; box-shadow:none;"/>
 
 ----
 
-### Qu'est ce que le continuous deployment
+### What is Continuous Deployment?
 
-> Le continuous deployment ajoute la dimension de mise en production automatique au continuous delivery
-
-----
-
-### Etre sûr de ses tests
-
-* La validation par les tests doit être **béton**
-* Il faut donc un niveau de maturité des tests suffisant
+> Continuous deployment add automatic producation deployement to continuous delivery
 
 ----
 
-### Livrer au commit
+### Tests rules!
 
-* La mise en place du continuous delivery permet de livrer directement à chaque commit
-* Livrer souvent permet de livrer peu de changements à chaque fois, et donc moins de régression en cas d'erreur
-* Il est plus simple de faire un rollback sur une fonctionnalité que sur 15 --> Moins de désagréments pour les clients
+* Test validation must be perfect
+* Test maturity level must be sufficient
 
 ----
 
-### Compétences / Outils
+### Commit to prod
 
-* Outil de déploiement/orchestrateur : puppet, docker, rancher, swarm, kubernetes, ...
-* Outils de scripting : python, powershell, bash, ...
+* With the continuous delivery, it is possible to deploy each commit on specific branch directly to production environment
+* Deploy often allow to push only a small number of change each time which creates less regressions in the case of an error.
+* It is easier to rollback 1 change than 15 --> Less inconveniences for clients
+
+----
+
+### Skills / Tools
+
+* Deployment/orchestrators: puppet, docker, rancher, swarm, kubernetes, ...
+* Scripting: python, powershell, bash, ...
 * Load Balancer : Nginx, HaProxy, Traefik, ...

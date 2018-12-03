@@ -2,19 +2,19 @@
 
 ----
 
-### Le DevOps à l'infini !!
+### Infinite DevOps loop!
 <img src="images/devops-infinity-workflow.png" style="background:none; border:none; box-shadow:none;"/>
 
 ----
 
-### D'autres sous-domaines peuvent être ajoutés dans le futur
+### Other subdomains can be added
 
-Exemple : Continuous feedback
+Example : Continuous feedback
 
 ----
 
-### Compétences / Outils
+### Skills
 
-* Etre **curieux**
-* S'**adapter** vite
-* **Prendre des informations** partout où vous passez
+* Be **curious**
+* **Adapt** quickly
+* **Gather informations** wherever you go

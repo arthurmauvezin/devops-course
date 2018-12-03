@@ -2,102 +2,97 @@
 
 ----
 
-### Qu'est ce que l'intégration
+### What is the integration
 
-* Mettre en commun des parties développées de façon séparées
+* Put together pieces which were developed separately
 
 ----
 
 ### CI : Build
 
-> Eviter l'effet : "Eh mais je comprend pas ! Ca marche sur mon poste pourtant"
+> Avoid effect: "I don't understand! It worked on my laptop..."
 
-* Télécharger les dépendances
-* Builder l'application
+* Download dependencies
+* Build application
 
 ----
 
 ### CI : Tests
 
-* Tester tout ce qu'il est possible de tester de manière automatique
-* C'est à dire : Quasiment tout !
-* Il existe un grand nombre de types de tests différents 
+* Test all you can test automatically --> It means, practically everything.
+* There is different type of tests
 
-> Tester, c'est mettre un coup de tampon sur un livrable
-
-----
-
-#### Tests unitaires
-
-* Tests visant à assurer le bon fonctionnement d'une brique unitairement
-* Ces tests peuvent être réalisés au build, ou juste après le build
+> To test is to stamp and validate a deliverable
 
 ----
 
-#### Tests d'intégration
+#### Unit tests
 
-* Tests s'appuyant sur les tests unitaires
-* Permet de s'assurer que les briques testées unitairement fonctionnent ensemble
-* On réalise souvent des appels externes techniques à une des briques puis on valide le retour
-
-----
-
-#### Tests fonctionnels / Bout-en-bout
-
-* Aussi appelé tests navigateur
-* On simule les input tels qu'ils seront réalisés par les utilisateurs (scénario de Gherkin)
-* Simulation de cliques, d'entrée de caractères dans un champ texte, scrolling, double tap, ...
-* On valide le retour : l'apparition de la bonne page, de la bonne information, ...
-* Demande des prérequis techniques : id sur chaque élément sélectionnable dans une IHM, ...
+* Validate a simple brick of the application
+* Ex: Validate that your methods behave as you wanted
 
 ----
 
-#### Tests de charge
+#### Integration tests
 
-* Test visant à s'assurer de la résilience de l'application en cas de montée en charge
-* On part de requêtes simples puis on bascule sur des scénarios représentatifs des actions des utilisateurs
-* On commence par tester avec une seule instance de chaques briques de l'application 
-* Puis on augmente le nombre d'instance (**scale**) pour voir comment l'application réagit globalement
-* Cette méthodologie permet de trouver un chemin critique entre nombre d'instances et nombre d'utilisateurs
+* Rely on Unit tests
+* Validate that all bricks behabe as intended
+* You can test from any interface (not only client interface)
 
 ----
 
-#### Tests de sécurité
+#### Functional / End-to-end tests
 
-* Test des failles connues (injections, XSS, ...)
-* Charge l'application pour voir comment elle répond
-* Bruteforce 
-
-----
-
-#### Tests : Désavantages
-
-* Long à maintenir : il faut prévoir la mise à jour des tests dans les cycles de développement
-* Long à mettre en place : il existe un grand nombre de technologies diverses et les bencher prend du temps
+* We simulate inputs as they will be by real users (Gherkin scenario) 
+* ex: we simulate clicks, character typing, scrolling, double tap, ...
+* Then, we validate return: the page load, information is sent, ...
+* Rely on technical prerequisites: ids on html element, ...
 
 ----
 
-#### Tests : Conclusion
+#### Load tests
 
-* Les tests ne sont pas facultatifs
-* Les tests permettent de réduire drastiquement le temps passer à valider un livrable
-* Les tests augmentent notre confiance en nos livrables 
-* Les tests permettent de rester concentré sur la création de valeur au lieu de passer son temps à débuguer les applications
-
-----
-
-### Analyse de code
-
-* Outils d'analyse de code statique ou dynamique
-* Remonte des statistiques sur la qualité du code, les vulnérabilités, les bugs possibles
-* Met en avant les problèmes les plus dangereux
-* Permet une vrai introspection sur la qualité générale du code et sur les efforts à faire pour s'approcher de la perfection
+* Validate resilience of an application when experiencing load.
+* These test must be realized with one instance at first then scale to find breaking point
+* Scenario can be simple or complex
+* Load tests allow to find a critical path between instance and user number
 
 ----
 
-### Compétences / Outils
+#### Security tests
 
-* Serveurs d'intégration continu : Jenkins, TeamCity, Bamboo, Travis (SaaS), Gitlab, ...
+* Validate if the application is imune against known security holes (sql injection, XSS, ...)
+* DDOS and brutefore application
+
+----
+
+#### Tests : Cons
+
+* Time consuming to maintain. Tests extend development phase.
+* Time consuming to setup. Lots of test techno exists and there is a study analysis to perform before setting up automated tests.
+
+----
+
+#### Tests : Pros
+
+* Tests are not optional
+* Tests reduce time to validate deliverable
+* Tests strenghten our confidence in the quality of our work
+* Tests allow to stay focused on value creation chain instead of debugging apps
+
+----
+
+### Code analysis
+
+* Static or dynamic code analysis tool provide statistics about code quality, vulnerabilities, plausible bugs, ...
+* Spotlights most dangerous problems
+* Allow introspection about general quality of code and efforts to approach perfection
+
+----
+
+### Skill / Tools
+
+* Continuous Integration servers : Jenkins, TeamCity, Bamboo, Travis (SaaS), Gitlab, ...
 * Scripting : bash, python, powershell, groovy, ...
 * Building : Maven, MsBuild, NPM, ...
 * Dependency management : Maven, Nuget, Pip, Bower, NPM, ...
@@ -105,7 +100,7 @@
 
 ----
 
-### Compétences / Outils (suite)
+### Skill / Tools (part 2)
 
 * Integration Tests : Failsafe, curl, SoapUI, Postman, ...
 * Functional Tests : Selenium, Cucumber, Test IO, HP UFT, SoapUI, Postman, Ranorex ...
