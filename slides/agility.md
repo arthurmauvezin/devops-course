@@ -1,50 +1,50 @@
-## L'agilité
+## Agility
 
 ----
 
-### Petit retour en arrière
+### Let's take a look into the past
 <img src="https://png.icons8.com/metro/1600/rewind.png" height="200" width="200" style="background:none; border:none; box-shadow:none;"/>
 
 ----
 
-### Cycle en V / Waterfall
-
+### Waterfall
 <img src="images/waterfall.png" style="background:none; border:none; box-shadow:none;"/>
 
-* Utilisé pendant des années dans une majorité des projets informatiques
-* Cycle de développement long
-* Les livrables ne correspondent pas toujours à ce qui a été demandé
+* Used in the majority of IT project since years
+* Long development cycle
+* Deliverables do not always correspond to what was asked by client
 
 ----
 
-### L'agilité par le Scrum
+### Agile with Scrum
 
-* Présenté par **Ken Schwaber** en 1995, publié dans son manifeste en 2001
-* Définit des méthodes et pratiques de pilotage et réalisation de projets
-* Basé sur un système d'**itérations successives**
+* Introduced by **Ken Schwaber** in 1995
+* Define methods and practices of project realisation
+* Based on **incremental iterations** 
 <img src="images/agility.png" style="background:none; border:none; box-shadow:none;"/>
 
 ----
 
-### Piliers de l'agilité
-
-* Les **Individus** et leurs interactions plus que les processus et les outils
-* Des logiciels **opérationnels** plus qu'une documentation exhaustive
-* La **collaboration avec les clients** plus que la négociation contractuelle
-* L'**adaptation au changement** plus que le suivi d'un plan
+### Scrum Values
+<img src="images/scrum-values.png" style="background:none; border:none; box-shadow:none;"/>
 
 ----
 
-### Les rôles de l'agilité
+### Roles of the Scrum Team
 
-* Le **Product Owner** (PO): vision du produit à réaliser
-* L'équipe de **Développement** : équipe pluridisciplinaire chargée de réaliser les besoins exprimés par le PO
-* Le **Scrum Master** : chargé de faire respecter les principes Scrum au sein de l'équipe
+* **Product Owner** (PO): responsible for maximizing the value of the product resulting from the work of the Development Team. 
+* **Development team** : multidisciplinary team which is in charge of realizing stories specified in each sprint.
+* **Scrum Master** : is responsible for promoting and supporting Scrum accross the team.
 
 ----
 
-### Limites de l'agilité
+### Scrum process overview
+<img src="images/scrum-process.png" style="background:none; border:none; box-shadow:none;"/>
 
-* Seule l'équipe de dev est agile 
-* Quid du déploiement des applications?
-* Ne se concentre que sur la livraison d'un logiciel
+----
+
+### Scrum limitations 
+
+* Only dev team is agile
+* How can we assure agility accross deployment ?
+* Only focused on software increment (not production issues)

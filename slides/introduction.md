@@ -1,4 +1,4 @@
-# Cours DevOps ECE - SI
+# DevOps Course
 #### By
 ##### Arthur Mauvezin
 
@@ -19,16 +19,16 @@
 
 ----
 
-### Qui a déjà entendu parler du DevOps?
+### Who knows DevOps?
 
 ----
 
-### Pourquoi ce cours?
+### Why this course?
 
-* Des compétences maintenant indispensables
-* Connaissances applicables dans tous les domaines de l'informatique
-* Connaissances **très** demandées sur le marché
+* Mandatory skills 
+* Useful skills in all IT domains
+* Higly saleable on IT market
 
 ----
 
-### N'hésitez pas à poser vos questions à tout moment!
+### Feel free to ask your question at any time!
