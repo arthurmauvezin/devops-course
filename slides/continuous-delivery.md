@@ -27,6 +27,7 @@
 ### Versioning problematic
 
 > To help with deliverable tracability, version number must be well thought
+
 * Versioning sometimes challenges content and delivery deadline
 * Versioning example: MAJOR.MINOR.PATCH_BUILDNUMBER (5.21.12_3)
 

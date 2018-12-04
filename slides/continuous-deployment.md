@@ -9,7 +9,7 @@
 
 ### What is Continuous Deployment?
 
-> Continuous deployment add automatic producation deployement to continuous delivery
+> Continuous deployment add automatic production deployement to continuous delivery
 
 ----
 
