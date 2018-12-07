@@ -155,9 +155,11 @@ d7886598dbe2        crosbymichael/redis:latest   /redis-server --dir    33 minut
 A Dockerfile is a file which describre how an image should be created.
 
 ```dockerfile
-FROM busybox
-RUN ls -lh /
-RUN CMD echo Hello world
+FROM ubuntu
+
+RUN apt-get install htop
+
+CMD htop -v
 ```
 
 ----
