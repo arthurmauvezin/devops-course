@@ -38,7 +38,7 @@ Ops want stability to keep a high satisfaction level from client.
 
 ### So, what is DevOps
 
-* It is cross-team mindset like agility.
+* It is a cross-team mindset like agility.
 * You must ask yourself how to get a better deliverable from input team (ex: product manager)
 * And how to produce a better deliverable for output team (ex: Ops team)
 * Always think automation and continous improvement.

@@ -36,7 +36,7 @@
 ### Manual production deployment
 
 * Continuous delivery does not automate production deployment
-* Producation deployment are launched manually after human validation
+* Production deployment is launched manually after human validation
 
 ----
 

@@ -1,0 +1,7 @@
+#!/bin/bash
+
+docker stop devops-course
+docker build -t devops-course .
+docker run -d --rm -p 80:8080 --name=devops-course devops-course
+
+google-chrome --new-window http://localhost

@@ -1,22 +1,23 @@
-## En conclusion
+## Conclusion
 
-* Le DevOps, c'est la vie !
-* Tout le monde peut/doit être moteur
-* Remise en question perpétuelle
-* Le but ultime du DevOps = Commit to prod
+> Cycle and feedback
 
-----
-
-### Complexité
-
-* Long à implémeter, que ce soit au niveau humain ou technique
-* Un nouvel arrivant met plus de temps à se mettre à niveau
-* Tout le monde n'est pas tout le temps polyvalent
-* Gestion des perturbations - Build vs Run
+* DevOps is a way of life !
+* Every person can be proactive
+* Always think what could be improved
 
 ----
 
-### Un peu de documentation
+### Difficulty
+
+* Hard process to implement (technically or humanly)
+* Every newcomer need lots of different skills 
+* Not everyone has the capacity to work on every subject 
+* Disturbance management - Build vs Run
+
+----
+
+### Some documentation
 
 * [12factorapp](https://12factor.net/)
 * [XP from the trenches](https://www.infoq.com/minibooks/scrum-xp-from-the-trenches-2)

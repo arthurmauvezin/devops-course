@@ -1,4 +1,3 @@
-
 ## Continuous Integration
 
 ----
@@ -11,7 +10,7 @@
 
 ### CI : Build
 
-> Avoid effect: "I don't understand! It worked on my laptop..."
+> Goal: Avoid the effect: "I don't understand! It worked on my laptop `¯\_(ツ)_/¯` "
 
 * Download dependencies
 * Build application
@@ -20,8 +19,9 @@
 
 ### CI : Tests
 
-* Test all you can test automatically --> It means, practically everything.
+* Test all you can test automatically --> It means practically everything.
 * There is different type of tests
+* Tests are not optional
 
 > To test is to stamp and validate a deliverable
 
@@ -44,10 +44,11 @@
 
 #### Functional / End-to-end tests
 
-* We simulate inputs as they will be by real users (Gherkin scenario) 
-* ex: we simulate clicks, character typing, scrolling, double tap, ...
-* Then, we validate return: the page load, information is sent, ...
-* Rely on technical prerequisites: ids on html element, ...
+* We simulate inputs as they would be by real users
+* Example: 
+  * We simulate clicks, character typing, scrolling, double tap, ...
+  * Then, we validate return: the page load, information is sent, ...
+  * Rely on technical prerequisites: ids on html element, ...
 
 ----
 
@@ -70,13 +71,12 @@
 #### Tests : Cons
 
 * Time consuming to maintain. Tests extend development phase.
-* Time consuming to setup. Lots of test techno exists and there is a study analysis to perform before setting up automated tests.
+* Time consuming to setup. Lots of test techs exist - we need to perform a study analysis before setting up automated tests.
 
 ----
 
 #### Tests : Pros
 
-* Tests are not optional
 * Tests reduce time to validate deliverable
 * Tests strenghten our confidence in the quality of our work
 * Tests allow to stay focused on value creation chain instead of debugging apps
@@ -93,6 +93,7 @@
 
 ### Skill / Tools
 
+* VCS: Git, SVN, Mercurial, ...
 * Continuous Integration servers : Jenkins, TeamCity, Bamboo, Travis (SaaS), Gitlab, ...
 * Scripting : bash, python, powershell, groovy, ...
 * Building : Maven, MsBuild, NPM, ...
@@ -104,7 +105,8 @@
 ### Skill / Tools (part 2)
 
 * Integration Tests : Failsafe, curl, SoapUI, Postman, ...
-* Functional Tests : Selenium, Cucumber, Test IO, HP UFT, SoapUI, Postman, Ranorex ...
+* Functional Tests : Selenium, HP UFT, SoapUI, Postman, Ranorex ...
+* Test management: Gherkin, Cucumber, HP QC, Hiptest, ...
 * Load Tests : JMeter, Gatling, Locust, ...
 * Security Tests : Netsparker, Acunetix, Metasploit
 * Code Analysis : Sonar, Coverity, Fortify

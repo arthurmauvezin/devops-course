@@ -54,7 +54,7 @@
 
 * [FreeBSD jails (1999-2000)](https://www.freebsd.org/cgi/man.cgi?query=jail&sektion=8&manpath=FreeBSD+4.0-RELEASE)
 
-Containers are not a new concept
+Container is not a new concept
 
 ----
 
@@ -152,7 +152,7 @@ d7886598dbe2        crosbymichael/redis:latest   /redis-server --dir    33 minut
 
 ### Création d'une image
 
-A Dockerfile is a file which describre how an image should be created.
+A Dockerfile is a file which describe how an image should be created.
 
 ```dockerfile
 FROM ubuntu
@@ -353,11 +353,7 @@ volumes:
 
 * Kubernetes
 * Rancher
+* Swarm
 * Mesos
 * ...
 
-----
-
-### Quelques cas d'usage
-#### Microservices
-<img src="https://github.com/dockersamples/example-voting-app/raw/master/architecture.png" width="60%">
