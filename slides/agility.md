@@ -10,18 +10,18 @@
 ### Waterfall
 <img src="images/waterfall.png" style="background:none; border:none; box-shadow:none;"/>
 
-* Used in the majority of IT project since years
-* Long development cycle
-* Deliverables do not always correspond to what was asked by client
+* Used in the **majority of IT project** for years
+* **Long development** cycle
+* Deliverables **do not correspond** to what was asked by the client
 
 ----
 
 ### Agile with Scrum
+<img src="images/agility.png" style="background:none; border:none; box-shadow:none;"/>
 
 * Introduced by **Ken Schwaber** in 1995
-* Define methods and practices of project realisation
+* Define **methods and practices** of project realisation
 * Based on **incremental iterations** 
-<img src="images/agility.png" style="background:none; border:none; box-shadow:none;"/>
 
 ----
 
@@ -45,6 +45,6 @@
 
 ### Scrum limitations 
 
-* Only dev team is agile
-* How can we assure agility accross deployment ?
-* Only focused on software increment (not production issues)
+* **Only dev team** is agile
+* How can we assure **agility accross deployment** ?
+* Only focused on software increment, **not production issues**

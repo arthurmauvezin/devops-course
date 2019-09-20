@@ -4,7 +4,7 @@
 
 ### What is the integration
 
-* Put together pieces which were developed separately
+> **Bring together** software pieces which were **developed separately**
 
 ----
 
@@ -20,16 +20,16 @@
 ### CI : Tests
 
 * Test all you can test automatically --> It means practically everything.
-* There is different type of tests
-* Tests are not optional
+* There is **different types** of tests
+* Tests are **not optional**
 
-> To test is to stamp and validate a deliverable
+> To test is **to stamp and validate a deliverable**
 
 ----
 
 #### Unit tests
 
-* Validate a simple brick of the application
+* **Validate a simple brick** of the application
 * Ex: Validate that your methods behave as you wanted
 
 ----
@@ -37,14 +37,14 @@
 #### Integration tests
 
 * Rely on Unit tests
-* Validate that all bricks behave as intended
+* Validate that **multiple bricks behave as intended**
 * You can test from any interface (not only client interface)
 
 ----
 
 #### Functional / End-to-end tests
 
-* We simulate inputs as they would be by real users
+* We **simulate inputs as they would be by real users**
 * Example: 
   * We simulate clicks, character typing, scrolling, double tap, ...
   * Then, we validate return: the page load, information is sent, ...
@@ -54,10 +54,10 @@
 
 #### Load tests
 
-* Validate resilience of an application when experiencing load.
-* These test must be realized with one instance at first then scale to find breaking point
+* Validate **resilience of an application when experiencing load**.
+* These tests must be realized with one instance at first then scale to find **breaking point**
 * Scenario can be simple or complex
-* Load tests allow to find a critical path between instance and user number
+* Load tests allow to **find a critical path between instance and user number**
 
 ----
 

@@ -9,7 +9,7 @@ Devs want change to simplify their everyday work.
 
 ----
 
-### Les acteurs : Ops
+### Actors : Ops
 > Anyone working on maintenance and operations of production.
 
 Ops want stability to keep a high satisfaction level from client.
@@ -17,16 +17,16 @@ Ops want stability to keep a high satisfaction level from client.
 ----
 
 ### Definition
-> DevOps is a set of practices that automates the processes between software development (Devs) and IT teams (Ops), in order that they can build, test, and release software faster and more reliably
+> DevOps is **a set of practices** that automates the processes **between software development (Devs) and IT teams (Ops)**, in order that they can **build, test, and release** software **faster and more reliably**
 
 ----
 
-### Breaking the wall!
+### Breaking the wall !!
 <img src="images/wall-of-confusion.png" style="background:none; border:none; box-shadow:none;" />
 
 ----
 
-### Le DevOps s'appuie sur des fondements agiles
+### DevOps relies on Agility foundation
 <img src="images/devops.jpg" style="background:none; border:none; box-shadow:none;"/>
 
 ----
@@ -38,22 +38,21 @@ Ops want stability to keep a high satisfaction level from client.
 
 ### So, what is DevOps
 
-* It is a cross-team mindset like agility.
-* You must ask yourself how to get a better deliverable from input team (ex: product manager)
-* And how to produce a better deliverable for output team (ex: Ops team)
-* Always think automation and continous improvement.
-* Talk, and put yourself into others place
-* Develop to the target (Dev == QA == Prod)
-* Shorten Time To Market (TTM)
+* It is **a cross-team mindset** like agility
+* You must ask yourself **how to get a better deliverable from input team** (ex: product manager)
+* And **how to produce a better deliverable for output team** (ex: Ops team)
+* Always think **automation** and **continous improvement**
+* **Develop to the target** (Dev == Staging == Prod)
+* **Shorten Time To Market** (TTM)
 
 ----
 
 ### How to start
 
-* Not an easy task as we cannot force mindset.
-* DevOps practices can be initiated from teams.
-* Start from simple, then add paradigms step by step:
-  * Continuous Integration
-  * Continuous Delivery
-  * Continuous Deployement
-  * Continuous Operations
+* Not an easy task as **we cannot force mindset**
+* DevOps practices **can be initiated from teams**
+* **Start simple**, then implement new practices:
+  * Master **Agile and technical tools**
+  * **Continuous Integration** / **Continuous Delivery**
+  * **Continuous Deployement**
+  * **Continuous Operations**

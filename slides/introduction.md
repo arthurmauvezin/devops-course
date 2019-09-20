@@ -1,6 +1,6 @@
-# DevOps Course
-#### By
-##### Arthur Mauvezin
+# DevOps
+### In a nutshell
+##### By Arthur Mauvezin
 
 <i><a target="_new" href="http://twitter.com/arthurmauvezin">@arthurmauvezin</a> | <a target="_new" href="http://github.com/arthurmauvezin">http://github.com/arthurmauvezin</a></i>
 
