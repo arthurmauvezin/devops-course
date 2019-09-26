@@ -3,11 +3,6 @@
 
 ----
 
-### Rely on Continuous Deployment
-<img src="images/wf-coperations.png" style="background:none; border:none; box-shadow:none;"/>
-
-----
-
 ### Metric collection
 
 Application monitoring:

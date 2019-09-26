@@ -3,11 +3,6 @@
 
 ----
 
-### Rely on Continuous Integration 
-<img src="images/wf-cdelivery.png" style="background:none; border:none; box-shadow:none;"/>
-
-----
-
 ### What is delivery
 
 > Store a deliverable which could be deployed in production environment

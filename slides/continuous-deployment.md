@@ -3,11 +3,6 @@
 
 ----
 
-### Rely on Continuous Delivery
-<img src="images/wf-cdeployment.png" style="background:none; border:none; box-shadow:none;"/>
-
-----
-
 ### What is Continuous Deployment?
 
 > Continuous deployment add automatic deployment to continuous delivery
