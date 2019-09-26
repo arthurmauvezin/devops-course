@@ -31,8 +31,13 @@ Ops want stability to keep a high satisfaction level from client.
 
 ----
 
-### The CALMS Framework for DevOps
+### The CALMS Framework
 <img src="images/devops-calms.png" style="background:none; border:none; box-shadow:none;"/>
+
+----
+
+### DevOps impacts all steps
+<img src="images/release-cycle/release-cycle.png" style="background:none; border:none; box-shadow:none;"/>
 
 ----
 
@@ -54,5 +59,5 @@ Ops want stability to keep a high satisfaction level from client.
 * **Start simple**, then implement new practices:
   * Master **Agile and technical tools**
   * **Continuous Integration** / **Continuous Delivery**
-  * **Continuous Deployement**
+  * **Continuous Deployment**
   * **Continuous Operations**

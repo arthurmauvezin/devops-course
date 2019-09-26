@@ -34,17 +34,17 @@
 
 ----
 
-### Git branching model workflows
+### Practical example with Gitflow
+<img src="images/gitflow.png" style="background:none; border:none; box-shadow:none;"/>
+
+----
+
+#### Git branching model workflows
 
 * [Gitflow](https://nvie.com/posts/a-successful-git-branching-model/)
 * [Github flow](https://guides.github.com/introduction/flow/)
 * [Gitlab flow](https://docs.gitlab.com/ee/workflow/gitlab_flow.html)
 * [One flow](http://endoflineblog.com/oneflow-a-git-branching-model-and-workflow)
-
-----
-
-#### Practical example with Gitflow
-<img src="images/gitflow.png" style="background:none; border:none; box-shadow:none;"/>
 
 ----
 

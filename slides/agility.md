@@ -25,11 +25,6 @@
 
 ----
 
-### Scrum Values
-<img src="images/scrum-values.png" style="background:none; border:none; box-shadow:none;"/>
-
-----
-
 ### Roles of the Scrum Team
 
 * **Product Owner** (PO): responsible for maximizing the value of the product resulting from the work of the Development Team. 

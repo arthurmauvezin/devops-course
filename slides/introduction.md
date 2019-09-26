@@ -27,7 +27,7 @@
 
 * Mandatory skills 
 * Useful skills in all IT domains
-* Higly saleable on IT market
+* Highly saleable on IT market
 
 ----
 

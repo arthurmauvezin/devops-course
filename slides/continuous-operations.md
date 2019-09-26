@@ -1,4 +1,5 @@
 ## Continuous Operations
+<img src="images/release-cycle/release-cycle-operate.png" style="background:none; border:none; box-shadow:none;"/>
 
 ----
 
@@ -29,13 +30,13 @@ Aggregated log view allowing to get interesting metrics:
 ### Automatic scalability
 
 * Allow apps to scale automatically in case of too much load
-* This load is measured with the help of metric and log centralasation.
+* This load is measured with the help of metric and log centralisation
 
 ----
 
 ### Infrastructure as Code
 
-> Automatically deploy machines and all necessary dependencies to get a running app.
+> Automatically deploy machines and all necessary dependencies to get a running app
 
 ----
 

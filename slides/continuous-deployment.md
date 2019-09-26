@@ -1,4 +1,5 @@
 ## Continuous Deployment
+<img src="images/release-cycle/release-cycle-deploy.png" style="background:none; border:none; box-shadow:none;"/>
 
 ----
 
@@ -9,7 +10,7 @@
 
 ### What is Continuous Deployment?
 
-> Continuous deployment add automatic production deployement to continuous delivery
+> Continuous deployment add automatic deployment to continuous delivery
 
 ----
 
@@ -20,7 +21,7 @@
 
 ----
 
-### Commit to prod
+### The Dream: Commit to prod
 
 * With the continuous delivery, it is possible to deploy each commit on specific branch directly to production environment
 * Deploy often allow to push only a small number of change each time which creates less regressions in the case of an error.
@@ -30,6 +31,6 @@
 
 ### Skills / Tools
 
-* Deployment/orchestrators: puppet, docker, rancher, swarm, kubernetes, ...
+* Deployment/orchestrators: XLDeploy, puppet, docker, rancher, swarm, kubernetes, ...
 * Scripting: python, powershell, bash, ...
 * Load Balancer : Nginx, HaProxy, Traefik, ...

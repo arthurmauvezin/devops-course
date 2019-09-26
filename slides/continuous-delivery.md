@@ -1,4 +1,5 @@
 ## Continuous Delivery
+<img src="images/release-cycle/release-cycle-release.png" style="background:none; border:none; box-shadow:none;"/>
 
 ----
 

@@ -1,4 +1,5 @@
 ## Continuous Everything
+<img src="images/release-cycle/release-cycle-full.png" style="background:none; border:none; box-shadow:none;"/>
 
 ----
 

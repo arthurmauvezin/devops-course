@@ -17,7 +17,7 @@
 * Actors: Everyone (Dev, PO, SM)
 * Goal: Velocity, Definition of Done, Sprint Backlog
 
-> Vélocity is a measure of the amount of work a Team can tackle during a single Sprint
+> Velocity is a measure of the amount of work a Team can tackle during a single Sprint
 
 ----
 
