@@ -20,8 +20,11 @@
 
 ### Skill / Tools
 
-* VCS: Git, SVN, Mercurial, ...
-* Continuous Integration servers : Jenkins, TeamCity, Bamboo, Travis (SaaS), Gitlab, ...
-* Scripting : bash, python, powershell, groovy, ...
-* Building : Maven, MsBuild, NPM, ...
-* Dependency management : Maven, Nuget, Pip, Bower, NPM, ...
+Domain | Examples
+--- | ---
+VCS | Git, SVN, Mercurial
+CI Server  | Jenkins, TeamCity, Travis, Gitlab
+Scripting  | Bash, Python, Powershell, Groovy
+Building  | Maven, MsBuild, NPM
+Dependency management  | Maven, Nuget, Pip, Bower, NPM
+

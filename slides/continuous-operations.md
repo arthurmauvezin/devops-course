@@ -37,7 +37,9 @@ Aggregated log view allowing to get interesting metrics:
 
 ### Skills / Tools
 
-* Monitoring : Centreon, Prometheus, InfluxDB, Grafana
-* Logs centralisation : ElasticSearch, Logstash, Kibana, Filebeat, ...
-* Infrastructure as code : Terraform, Puppet, Ansible, Chef, Salt, ...
-* Advanced system and network skills
+Domain | Examples
+--- | ---
+Monitoring | Centreon, Prometheus, InfluxDB, Grafana
+Logs centralisation | ElasticSearch, Logstash, Kibana, Filebeat
+Infrastructure as code | Terraform, Puppet, Ansible, Chef, Salt
+| Advanced system and network skills

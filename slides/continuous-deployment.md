@@ -26,6 +26,8 @@
 
 ### Skills / Tools
 
-* Deployment/orchestrators: XLDeploy, puppet, docker, rancher, swarm, kubernetes, ...
-* Scripting: python, powershell, bash, ...
-* Load Balancer : Nginx, HaProxy, Traefik, ...
+Domain | Examples
+--- | ---
+Deployment | XLDeploy, puppet, docker, rancher, swarm, kubernetes
+Scripting | python, powershell, bash
+Load Balancer | Nginx, HaProxy, Traefik

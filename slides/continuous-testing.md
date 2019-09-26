@@ -83,15 +83,19 @@
 
 ### Skill / Tools
 
-* Unit Tests : JUnit, NUnit, unittest, unit-test, ...
-* Integration Tests : Failsafe, curl, SoapUI, Postman, ...
-* Functional Tests : Selenium, HP UFT, SoapUI, Postman, Ranorex ...
-* Test management: Gherkin, Cucumber, HP QC, Hiptest, ...
+Domain | Examples
+--- | ---
+Unit Tests | JUnit, NUnit, unittest, unit-test
+Integration Tests | Failsafe, curl, SoapUI, Postman
+Functional Tests | Selenium, HP UFT, SoapUI, Postman
+Test management | Gherkin, Cucumber, HP QC, Hiptest
 
 ----
 
 ### Skill / Tools (part 2)
 
-* Load Tests : JMeter, Gatling, Locust, ...
-* Security Tests : Netsparker, Acunetix, Metasploit
-* Code Analysis : Sonar, Coverity, Fortify
+Domain | Examples
+--- | ---
+Load Tests | JMeter, Gatling, Locust, ...
+Security Tests | Netsparker, Acunetix, Metasploit
+Code Analysis | Sonar, Coverity, Fortify

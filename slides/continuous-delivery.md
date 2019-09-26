@@ -38,4 +38,6 @@
 
 ### Skills
 
-* Packaging appli : Maven, NPM, MsBuild, Python, Docker, ...
+Domain | Examples
+--- | ---
+Packaging appli | Maven, NPM, MsBuild, Python, Docker
